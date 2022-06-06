@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dip"
+    android:clipToPadding="false"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:fadeScrollbars="false"
+    android:scrollbarStyle="outsideInset">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nev"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="13"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:text="@string/leiras"/>
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="200"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:text="@string/bevetel_tipusa"/>
+
+    <Spinner
+        android:id="@+id/spCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:text="@string/kartya_keszpenz"/>
+
+    <Spinner
+        android:id="@+id/spMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:text="@string/ertek_forintban"/>
+
+    <EditText
+        android:id="@+id/etValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:maxLength="9"/>
+</LinearLayout>
+</ScrollView>

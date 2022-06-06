@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/navigation_egyenleg">
+
+    <fragment
+        android:id="@+id/navigation_egyenleg"
+        android:name="hu.bme.aut.penzjegyzo.fragments.HomeFragment"
+        android:label="Egyenleg"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_lista"
+        android:name="hu.bme.aut.penzjegyzo.fragments.ListaFragment"
+        android:label="Bejegyzések"
+        tools:layout="@layout/fragment_lista"/>
+    <fragment
+        android:id="@+id/navigation_valto"
+        android:name="hu.bme.aut.penzjegyzo.fragments.ValtoFragment"
+        android:label="Váltó"
+        tools:layout="@layout/fragment_valto" />
+</navigation>

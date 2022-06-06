@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Penzjegyzo</string>
+    <string name="egyenleg">Egyenleg</string>
+    <string name="bejegyzesek">Bejegyzések</string>
+    <string name="valto">Váltó</string>
+    <string name="valtas">Váltás</string>
+    <string name="huf">HUF</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Mégse</string>
+    <string name="new_bejegyzes_item">Új bejegyzés</string>
+    <string name="leiras">Leírás</string>
+    <string name="penzjegyzo">Pénzjegyző</string>
+    <string name="nev">Név</string>
+    <string name="bevetel_tipusa">Bevétel típusa</string>
+    <string name="kartya_keszpenz">Kártya/Készpénz</string>
+    <string name="ertek_forintban">Érték(forintban)</string>
+    <string name="torles">Törlés</string>
+
+    <string-array name="valutak">
+        <item>USD</item>
+        <item>GBP</item>
+        <item>EUR</item>
+        <item>RON</item>
+    </string-array>
+
+    <string-array name="category_items">
+        <item>Bevétel</item>
+        <item>Kiadás</item>
+    </string-array>
+    <string-array name="method_items">
+        <item>Kártya</item>
+        <item>Készpénz</item>
+    </string-array>
+</resources>
